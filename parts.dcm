@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN65D8L-7
+K N-Channel MOSFET
+F http://www.mouser.com/ds/2/115/DMN65D8L-219098.pdf
+$ENDCMP
+#
+#End Doc Library

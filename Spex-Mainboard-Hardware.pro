@@ -1,4 +1,4 @@
-update=3/8/2016 12:40:59 AM
+update=3/24/2016 1:15:28 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName30=parts
 LibName31=PRESSURE-BMP180_LGA7_
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

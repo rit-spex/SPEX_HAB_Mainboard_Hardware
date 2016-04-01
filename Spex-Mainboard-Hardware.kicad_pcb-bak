@@ -3,7 +3,7 @@
   (general
     (links 246)
     (no_connects 244)
-    (area -141.115001 -2.54 212.401953 135.45)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 6)
@@ -15,9 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu power)
-    (2 In2.Cu power)
-    (31 B.Cu mixed)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1219,7 +1217,7 @@
   )
 
   (module SPEX_Parts:G5LE-1A4-DC3 (layer F.Cu) (tedit 56FD9E48) (tstamp 56FDBBA6)
-    (at 33.462 129.395)
+    (at -104.46 15.095)
     (path /56EB0DA0/56F71C9B)
     (fp_text reference K1 (at 6.35 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1237,7 +1235,7 @@
   )
 
   (module SPEX_Parts:G5LE-1A4-DC3 (layer F.Cu) (tedit 56FD9E48) (tstamp 56FDBBAE)
-    (at 58.166 127.762)
+    (at -87.01 15.095)
     (path /56EB0DA0/56F71C01)
     (fp_text reference K2 (at 6.35 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

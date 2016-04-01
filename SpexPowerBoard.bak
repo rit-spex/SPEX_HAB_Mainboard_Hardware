@@ -30,6 +30,54 @@ LIBS:contrib
 LIBS:valves
 LIBS:parts
 LIBS:PRESSURE-BMP180_LGA7_
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Xicor
+LIBS:Zilog
 LIBS:Spex-Mainboard-Hardware-cache
 EELAYER 25 0
 EELAYER END
@@ -71,7 +119,7 @@ U 1 1 56DE6203
 P 2150 800
 F 0 "R18" V 2230 800 50  0000 C CNN
 F 1 "R" V 2150 800 50  0000 C CNN
-F 2 "" V 2080 800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 800 50  0001 C CNN
 F 3 "" H 2150 800 50  0000 C CNN
 	1    2150 800 
 	0    1    1    0   
@@ -82,7 +130,7 @@ U 1 1 56DE621B
 P 2150 900
 F 0 "R19" V 2230 900 50  0000 C CNN
 F 1 "R" V 2150 900 50  0000 C CNN
-F 2 "" V 2080 900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 900 50  0001 C CNN
 F 3 "" H 2150 900 50  0000 C CNN
 	1    2150 900 
 	0    1    1    0   
@@ -93,7 +141,7 @@ U 1 1 56DE6236
 P 2150 1000
 F 0 "R20" V 2230 1000 50  0000 C CNN
 F 1 "R" V 2150 1000 50  0000 C CNN
-F 2 "" V 2080 1000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1000 50  0001 C CNN
 F 3 "" H 2150 1000 50  0000 C CNN
 	1    2150 1000
 	0    1    1    0   
@@ -104,7 +152,7 @@ U 1 1 56DE6251
 P 2150 1100
 F 0 "R21" V 2230 1100 50  0000 C CNN
 F 1 "R" V 2150 1100 50  0000 C CNN
-F 2 "" V 2080 1100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1100 50  0001 C CNN
 F 3 "" H 2150 1100 50  0000 C CNN
 	1    2150 1100
 	0    1    1    0   
@@ -115,7 +163,7 @@ U 1 1 56DE626E
 P 2150 1200
 F 0 "R22" V 2230 1200 50  0000 C CNN
 F 1 "R" V 2150 1200 50  0000 C CNN
-F 2 "" V 2080 1200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1200 50  0001 C CNN
 F 3 "" H 2150 1200 50  0000 C CNN
 	1    2150 1200
 	0    1    1    0   
@@ -126,7 +174,7 @@ U 1 1 56DE6291
 P 2150 1400
 F 0 "R23" V 2230 1400 50  0000 C CNN
 F 1 "R" V 2150 1400 50  0000 C CNN
-F 2 "" V 2080 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1400 50  0001 C CNN
 F 3 "" H 2150 1400 50  0000 C CNN
 	1    2150 1400
 	0    1    1    0   
@@ -137,7 +185,7 @@ U 1 1 56DE62B4
 P 2150 1500
 F 0 "R24" V 2230 1500 50  0000 C CNN
 F 1 "R" V 2150 1500 50  0000 C CNN
-F 2 "" V 2080 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1500 50  0001 C CNN
 F 3 "" H 2150 1500 50  0000 C CNN
 	1    2150 1500
 	0    1    1    0   
@@ -148,7 +196,7 @@ U 1 1 56DE62DB
 P 2150 1600
 F 0 "R25" V 2230 1600 50  0000 C CNN
 F 1 "R" V 2150 1600 50  0000 C CNN
-F 2 "" V 2080 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1600 50  0001 C CNN
 F 3 "" H 2150 1600 50  0000 C CNN
 	1    2150 1600
 	0    1    1    0   
@@ -159,7 +207,7 @@ U 1 1 56DE6304
 P 2150 1800
 F 0 "R26" V 2230 1800 50  0000 C CNN
 F 1 "R" V 2150 1800 50  0000 C CNN
-F 2 "" V 2080 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1800 50  0001 C CNN
 F 3 "" H 2150 1800 50  0000 C CNN
 	1    2150 1800
 	0    1    1    0   
@@ -170,7 +218,7 @@ U 1 1 56DE632D
 P 2150 1900
 F 0 "R27" V 2230 1900 50  0000 C CNN
 F 1 "R" V 2150 1900 50  0000 C CNN
-F 2 "" V 2080 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2080 1900 50  0001 C CNN
 F 3 "" H 2150 1900 50  0000 C CNN
 	1    2150 1900
 	0    1    1    0   

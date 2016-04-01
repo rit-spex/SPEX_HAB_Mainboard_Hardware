@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Connectors_Molex)(type KiCad)(uri /home/chris/Perforce/crc3510_x140arch_9243/RITLaunch/Hardware/BoxTemplate/Connectors_Molex.pretty)(options "")(descr ""))
+  (lib (name Power)(type KiCad)(uri "$(KIPRJMOD)/Power.pretty")(options "")(descr ""))
+  (lib (name 18650)(type KiCad)(uri "$(KIPRJMOD)/18650.pretty")(options "")(descr ""))
+)

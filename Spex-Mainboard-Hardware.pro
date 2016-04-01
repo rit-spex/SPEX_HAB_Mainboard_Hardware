@@ -1,6 +1,6 @@
-update=3/25/2016 11:45:42 PM
+update=Fri 01 Apr 2016 02:40:38 AM PDT
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -118,3 +118,17 @@ LibName76=ttl_ieee
 LibName77=video
 LibName78=Xicor
 LibName79=Zilog
+LibName80=power/KL03-QFN24
+LibName81=power/lt3652
+LibName82=power/lt4415
+LibName83=power/lt6105
+LibName84=power/mmqa
+LibName85=power/mos_n_numbered
+LibName86=power/MOS_P_NUM
+LibName87=power/ncp508
+LibName88=power/ncp1117st50t3g
+LibName89=power/npn-numbered
+LibName90=power/Power-cache
+LibName91=power/Power-rescue
+LibName92=power/si3407dv
+LibName93=power/tps563200

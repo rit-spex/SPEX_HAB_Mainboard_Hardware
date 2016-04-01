@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Fri 01 Apr 2016 02:23:34 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -60,3 +60,18 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=power/KL03-QFN24
+LibName31=power/lt3652
+LibName32=power/lt4415
+LibName33=power/lt6105
+LibName34=power/mmqa
+LibName35=power/mos_n_numbered
+LibName36=power/MOS_P_NUM
+LibName37=power/ncp508
+LibName38=power/ncp1117st50t3g
+LibName39=power/npn-numbered
+LibName40=power/Power-cache
+LibName41=power/Power-rescue
+LibName42=power/si3407dv
+LibName43=power/tps563200
+LibName44=diode

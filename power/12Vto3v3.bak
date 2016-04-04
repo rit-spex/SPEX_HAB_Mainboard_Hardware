@@ -28,6 +28,55 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:parts
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Xicor
+LIBS:Zilog
 LIBS:KL03-QFN24
 LIBS:lt3652
 LIBS:lt4415
@@ -42,13 +91,12 @@ LIBS:Power-cache
 LIBS:Power-rescue
 LIBS:si3407dv
 LIBS:tps563200
-LIBS:diode
-LIBS:SpexPowerBoard-cache
+LIBS:Spex-Mainboard-Hardware-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -76,6 +124,7 @@ P 4850 2550
 AR Path="/5611FD47" Ref="C114"  Part="1" 
 AR Path="/5611FB98/5611FD47" Ref="C114"  Part="1" 
 AR Path="/56FE3A4E/5611FD47" Ref="C114"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/5611FD47" Ref="C114"  Part="1" 
 F 0 "C114" H 4850 2650 40  0000 L CNN
 F 1 "22uf" H 4856 2465 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 4888 2400 30  0001 C CNN
@@ -95,6 +144,7 @@ P 6750 2350
 AR Path="/5611FDFD" Ref="C109"  Part="1" 
 AR Path="/5611FB98/5611FDFD" Ref="C109"  Part="1" 
 AR Path="/56FE3A4E/5611FDFD" Ref="C109"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/5611FDFD" Ref="C109"  Part="1" 
 F 0 "C109" H 6750 2450 40  0000 L CNN
 F 1 "100nf" H 6756 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6788 2200 30  0001 C CNN
@@ -109,6 +159,7 @@ P 7900 2600
 AR Path="/5611FE98" Ref="R108"  Part="1" 
 AR Path="/5611FB98/5611FE98" Ref="R108"  Part="1" 
 AR Path="/56FE3A4E/5611FE98" Ref="R108"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/5611FE98" Ref="R108"  Part="1" 
 F 0 "R108" V 7980 2600 40  0000 C CNN
 F 1 "33.2k" V 7907 2601 40  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7830 2600 30  0001 C CNN
@@ -123,6 +174,7 @@ P 7900 3200
 AR Path="/5611FECF" Ref="R109"  Part="1" 
 AR Path="/5611FB98/5611FECF" Ref="R109"  Part="1" 
 AR Path="/56FE3A4E/5611FECF" Ref="R109"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/5611FECF" Ref="R109"  Part="1" 
 F 0 "R109" V 7980 3200 40  0000 C CNN
 F 1 "10k" V 7907 3201 40  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7830 3200 30  0001 C CNN
@@ -149,6 +201,7 @@ P 6300 3150
 AR Path="/56120123" Ref="R126"  Part="1" 
 AR Path="/5611FB98/56120123" Ref="R126"  Part="1" 
 AR Path="/56FE3A4E/56120123" Ref="R126"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/56120123" Ref="R126"  Part="1" 
 F 0 "R126" V 6380 3150 40  0000 C CNN
 F 1 "10K" V 6307 3151 40  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6230 3150 30  0001 C CNN
@@ -163,6 +216,7 @@ P 6100 3800
 AR Path="/561202C6" Ref="R130"  Part="1" 
 AR Path="/5611FB98/561202C6" Ref="R130"  Part="1" 
 AR Path="/56FE3A4E/561202C6" Ref="R130"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/561202C6" Ref="R130"  Part="1" 
 F 0 "R130" V 6180 3800 40  0000 C CNN
 F 1 "10K" V 6107 3801 40  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6030 3800 30  0001 C CNN
@@ -179,6 +233,7 @@ P 8250 2600
 AR Path="/561203D3" Ref="C105"  Part="1" 
 AR Path="/5611FB98/561203D3" Ref="C105"  Part="1" 
 AR Path="/56FE3A4E/561203D3" Ref="C105"  Part="1" 
+AR Path="/56DF75A2/56FE3A4E/561203D3" Ref="C105"  Part="1" 
 F 0 "C105" H 8250 2700 40  0000 L CNN
 F 1 "47uf" H 8256 2515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 8288 2450 30  0001 C CNN

@@ -28,6 +28,55 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:parts
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Xicor
+LIBS:Zilog
 LIBS:KL03-QFN24
 LIBS:lt3652
 LIBS:lt4415
@@ -42,13 +91,12 @@ LIBS:Power-cache
 LIBS:Power-rescue
 LIBS:si3407dv
 LIBS:tps563200
-LIBS:diode
-LIBS:SpexPowerBoard-cache
+LIBS:Spex-Mainboard-Hardware-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -212,10 +260,10 @@ VBUS
 Text Label 3500 2300 0    60   ~ 0
 VBUS
 $Comp
-L GND #PWR?
+L GND #PWR056
 U 1 1 56FE58A8
 P 3850 2650
-F 0 "#PWR?" H 3850 2400 50  0001 C CNN
+F 0 "#PWR056" H 3850 2400 50  0001 C CNN
 F 1 "GND" H 3858 2477 50  0000 C CNN
 F 2 "" H 3850 2650 50  0000 C CNN
 F 3 "" H 3850 2650 50  0000 C CNN
@@ -269,10 +317,10 @@ Text Label 4900 2300 0    60   ~ 0
 Text Label 3500 3900 0    60   ~ 0
 VBUS
 $Comp
-L GND #PWR?
+L GND #PWR057
 U 1 1 56FE6215
 P 3850 4250
-F 0 "#PWR?" H 3850 4000 50  0001 C CNN
+F 0 "#PWR057" H 3850 4000 50  0001 C CNN
 F 1 "GND" H 3858 4077 50  0000 C CNN
 F 2 "" H 3850 4250 50  0000 C CNN
 F 3 "" H 3850 4250 50  0000 C CNN
@@ -316,10 +364,10 @@ Wire Wire Line
 Text Label 2350 1800 0    60   ~ 0
 3v3
 $Comp
-L GND #PWR?
+L GND #PWR058
 U 1 1 56FE74FE
 P 2700 1900
-F 0 "#PWR?" H 2700 1650 50  0001 C CNN
+F 0 "#PWR058" H 2700 1650 50  0001 C CNN
 F 1 "GND" H 2708 1727 50  0000 C CNN
 F 2 "" H 2700 1900 50  0000 C CNN
 F 3 "" H 2700 1900 50  0000 C CNN
@@ -340,10 +388,10 @@ Text HLabel 1950 2250 0    60   Input ~ 0
 Text HLabel 1950 2350 0    60   Input ~ 0
 5vGnd
 $Comp
-L R R?
+L R R39
 U 1 1 56FE7B52
 P 2150 2250
-F 0 "R?" V 2230 2250 50  0000 C CNN
+F 0 "R39" V 2230 2250 50  0000 C CNN
 F 1 "R" V 2150 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2080 2250 50  0001 C CNN
 F 3 "" H 2150 2250 50  0000 C CNN
@@ -351,10 +399,10 @@ F 3 "" H 2150 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R40
 U 1 1 56FE7B58
 P 2150 2350
-F 0 "R?" V 2230 2350 50  0000 C CNN
+F 0 "R40" V 2230 2350 50  0000 C CNN
 F 1 "R" V 2150 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2080 2350 50  0001 C CNN
 F 3 "" H 2150 2350 50  0000 C CNN
@@ -372,10 +420,10 @@ Wire Wire Line
 Text Label 2350 2250 0    60   ~ 0
 5v
 $Comp
-L GND #PWR?
+L GND #PWR059
 U 1 1 56FE7B63
 P 2700 2350
-F 0 "#PWR?" H 2700 2100 50  0001 C CNN
+F 0 "#PWR059" H 2700 2100 50  0001 C CNN
 F 1 "GND" H 2708 2177 50  0000 C CNN
 F 2 "" H 2700 2350 50  0000 C CNN
 F 3 "" H 2700 2350 50  0000 C CNN

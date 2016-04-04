@@ -1,6 +1,6 @@
-update=Fri 01 Apr 2016 02:40:38 AM PDT
+update=4/3/2016 7:52:47 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -132,3 +130,5 @@ LibName90=power/Power-cache
 LibName91=power/Power-rescue
 LibName92=power/si3407dv
 LibName93=power/tps563200
+[general]
+version=1

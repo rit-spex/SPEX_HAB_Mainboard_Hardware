@@ -128,7 +128,7 @@ F 2 "Diodes_SMD:Diode-SMA_Standard" H 2000 1100 60  0001 C CNN
 F 3 "" H 2000 1100 60  0000 C CNN
 F 4 "B340-13-F" H 2000 1100 60  0001 C CNN "Manufacturer PN"
 	1    2000 1100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R150

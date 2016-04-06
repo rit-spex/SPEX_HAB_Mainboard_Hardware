@@ -1061,11 +1061,9 @@ $EndComp
 Wire Wire Line
 	9550 3500 9700 3500
 Wire Wire Line
-	9700 5500 9650 5500
+	9600 5500 9700 5500
 Wire Wire Line
-	9700 5000 9650 5000
-Wire Wire Line
-	9700 4500 9650 4500
+	9450 4500 9700 4500
 Wire Wire Line
 	9550 4000 9700 4000
 Text HLabel 9450 3900 0    60   Input ~ 0
@@ -1092,7 +1090,7 @@ $EndComp
 Text HLabel 9450 5400 0    60   Input ~ 0
 User_In
 Wire Wire Line
-	9700 6050 9650 6050
+	9600 6050 9700 6050
 $Comp
 L GND #PWR079
 U 1 1 57038625
@@ -1305,4 +1303,40 @@ F 3 "" H 9550 3800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	9550 4000 9550 3800
+Text HLabel 9450 4500 0    60   Input ~ 0
+Vbus_OUT
+Text HLabel 2950 1000 2    60   Input ~ 0
+5V_in
+$Comp
+L +5V #PWR?
+U 1 1 57044D2C
+P 2750 950
+F 0 "#PWR?" H 2750 800 50  0001 C CNN
+F 1 "+5V" H 2750 1090 50  0000 C CNN
+F 2 "" H 2750 950 50  0000 C CNN
+F 3 "" H 2750 950 50  0000 C CNN
+	1    2750 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 950  2750 1000
+Wire Wire Line
+	2750 1000 2950 1000
+$Comp
+L GND #PWR?
+U 1 1 57047398
+P 9600 6150
+F 0 "#PWR?" H 9600 5900 50  0001 C CNN
+F 1 "GND" H 9600 6000 50  0000 C CNN
+F 2 "" H 9600 6150 60  0000 C CNN
+F 3 "" H 9600 6150 60  0000 C CNN
+	1    9600 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5000 9600 6150
+Connection ~ 9600 6050
+Wire Wire Line
+	9600 5000 9700 5000
+Connection ~ 9600 5500
 $EndSCHEMATC

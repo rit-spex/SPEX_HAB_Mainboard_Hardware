@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:parts
+LIBS:PRESSURE-BMP180_LGA7_
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel
@@ -1634,4 +1635,6 @@ Wire Wire Line
 	3400 7550 2500 7550
 Wire Wire Line
 	2650 7450 2500 7450
+Wire Wire Line
+	9550 3600 9700 3600
 $EndSCHEMATC

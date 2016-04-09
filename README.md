@@ -3,5 +3,6 @@
 Mainboard for RIT SPEX's High Altitude Balloon Program. 
 This board is part of a modular system that allows for quick reuse and testing of future cubesat payloads.
 
-<img src="https://cloud.githubusercontent.com/assets/12124823/14028219/ceeb3c86-f1d1-11e5-83f5-aa797145db20.png" width="90%"></img>
-<img src="https://cloud.githubusercontent.com/assets/12124823/14028240/e7944af2-f1d1-11e5-9fde-acc20397a62d.png" width="90%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14028244/e8fde1a0-f1d1-11e5-8e9f-25f4c2a171c0.png" width="90%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14028250/eccdb5b2-f1d1-11e5-8d8c-d5a794093a39.png" width="90%"></img> 
+
+
+<img src="https://cloud.githubusercontent.com/assets/12124823/14400662/9fe7c432-fdc9-11e5-8ede-4e1433cb102e.PNG" width="30%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400663/a54cd084-fdc9-11e5-9dcf-2bf897ab9da8.PNG" width="30%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400666/aa2f543c-fdc9-11e5-9d48-2ad2ffc49fca.PNG" width="30%"></img> 

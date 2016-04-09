@@ -3,7 +3,7 @@
   (general
     (links 362)
     (no_connects 7)
-    (area 79.71304 50.49938 188.775001 131.514133)
+    (area 83.744999 50.734999 183.895001 130.885001)
     (thickness 1.6)
     (drawings 8)
     (tracks 1403)
@@ -4600,6 +4600,11 @@
     (pad 2 thru_hole circle (at -1.75 7.91 270) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
     (pad "" np_thru_hole circle (at 0 0 270) (size 3.5 3.5) (drill 3.1) (layers *.Cu *.Mask F.SilkS))
+    (model C:/Users/matthew/Desktop/SPEX_HAB_Mainboard_Hardware/SPEX_Parts.pretty/1723101102.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SPEX_Parts:ultraFitCONN_2 (layer F.Cu) (tedit 5640AAE2) (tstamp 57081C2C)

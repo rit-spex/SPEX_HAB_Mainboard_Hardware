@@ -7,3 +7,5 @@ This board is part of a modular system that allows for quick reuse and testing o
 <img src="https://cloud.githubusercontent.com/assets/12124823/14400693/34c5c05e-fdca-11e5-8a91-37ffc9e1cb80.png" width="90%"></img> 
 
 <img src="https://cloud.githubusercontent.com/assets/12124823/14400662/9fe7c432-fdc9-11e5-8ede-4e1433cb102e.PNG" width="30%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400663/a54cd084-fdc9-11e5-9dcf-2bf897ab9da8.PNG" width="30%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400666/aa2f543c-fdc9-11e5-9d48-2ad2ffc49fca.PNG" width="30%"></img> 
+
+<img src="https://cloud.githubusercontent.com/assets/12124823/14400714/8f7edd64-fdca-11e5-9fab-75afe3c24d77.PNG" width="90%"></img> 

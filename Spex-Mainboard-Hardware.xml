@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/matthew/Desktop/SPEX_HAB_Mainboard_Hardware/Spex-Mainboard-Hardware.sch</source>
-    <date>4/8/2016 7:12:34 PM</date>
+    <date>4/10/2016 9:32:01 PM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -343,7 +343,7 @@
       <tstamp>56FB6452</tstamp>
     </comp>
     <comp ref="C21">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -381,14 +381,14 @@
       <tstamp>56DF3C44</tstamp>
     </comp>
     <comp ref="C10">
-      <value>C</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/HAB Sensors/" tstamps="/56DF35A9/"/>
       <tstamp>56DF438F</tstamp>
     </comp>
     <comp ref="C9">
-      <value>C</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/HAB Sensors/" tstamps="/56DF35A9/"/>
@@ -438,7 +438,7 @@
       <tstamp>56E7BAB9</tstamp>
     </comp>
     <comp ref="R17">
-      <value>R</value>
+      <value>240</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HAB Sensors/" tstamps="/56DF35A9/"/>
@@ -494,7 +494,7 @@
       <tstamp>56F543EA</tstamp>
     </comp>
     <comp ref="C22">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/HAB Sensors/" tstamps="/56DF35A9/"/>
@@ -839,7 +839,7 @@
       <tstamp>56EB28FE</tstamp>
     </comp>
     <comp ref="C18">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Data_Input_Output/" tstamps="/56EB0DA0/"/>
@@ -853,14 +853,14 @@
       <tstamp>56EBFBDF</tstamp>
     </comp>
     <comp ref="R28">
-      <value>R</value>
+      <value>4.7K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Data_Input_Output/" tstamps="/56EB0DA0/"/>
       <tstamp>56EC0138</tstamp>
     </comp>
     <comp ref="C17">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Data_Input_Output/" tstamps="/56EB0DA0/"/>
@@ -1744,8 +1744,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>E:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    <library logical="parts">
+      <uri>C:\Users\matthew\Desktop\SPEX_HAB_Mainboard_Hardware\parts.lib</uri>
     </library>
     <library logical="Power-cache">
       <uri>C:\Users\matthew\Desktop\SPEX_HAB_Mainboard_Hardware\power\Power-cache.lib</uri>
@@ -1756,14 +1756,14 @@
     <library logical="pspice">
       <uri>E:\Program Files\KiCad\share\kicad\library\pspice.lib</uri>
     </library>
-    <library logical="device">
-      <uri>E:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
     <library logical="interface">
       <uri>E:\Program Files\KiCad\share\kicad\library\interface.lib</uri>
     </library>
-    <library logical="parts">
-      <uri>C:\Users\matthew\Desktop\SPEX_HAB_Mainboard_Hardware\parts.lib</uri>
+    <library logical="device">
+      <uri>E:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>E:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
   </libraries>
   <nets>

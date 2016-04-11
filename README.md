@@ -3,6 +3,16 @@
 Mainboard for RIT SPEX's High Altitude Balloon Program. 
 This board is part of a modular system that allows for quick reuse and testing of future cubesat payloads.
 
+Hardware on board includes:
+- Altimeter
+- 9DOF IMU
+- Temperature Sensor
+- Three external Thermistors
+- 64Mbit of Flash Storage
+- Onboard MicroSD Storage 
+- Relays and MOSFETs for multiple voltages
+- Full Dataline ESD Protection
+
 <img src="https://cloud.githubusercontent.com/assets/12124823/14400697/4967f43c-fdca-11e5-878b-26fc58b3d6cf.png" width="100%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400698/4ba78c58-fdca-11e5-9fcf-c01f88102436.png" width="100%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400699/4ce61aee-fdca-11e5-9d4b-a24323441952.png" width="100%"></img> 
 <img src="https://cloud.githubusercontent.com/assets/12124823/14400693/34c5c05e-fdca-11e5-8a91-37ffc9e1cb80.png" width="100%"></img> 
 

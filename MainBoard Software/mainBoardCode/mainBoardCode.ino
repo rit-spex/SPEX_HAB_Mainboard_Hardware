@@ -7,30 +7,28 @@
 #include <Adafruit_MCP9808.h>
 
 #define RELAY_1 17
-#define RELAY_2 16
+#define RELAY_2 16 //payload deployment relay
 
 #define BLUE_LED 14
-#define LED_STATUS_1 2
+#define LED_STATUS_1 2 
 #define LED_STATUS_2 30
 
-#define SEALEVELPRESSURE_HPA (1013.25)
+#define SEALEVELPRESSURE_HPA (1013.25) //dependent on launch conditions
 #define BME_CS 18
 
 #define SD_CS 10
 #define SD_PWRCTRL 22
 
-elapsedMillis ledFlash, pollSensor, releasePayload;
+elapsedMillis ledFlash, pollSensor, releasePayload; //timers in milliseconds
 
-Adafruit_MCP9808 mcp = Adafruit_MCP9808();
-Adafruit_BME280 bme; // I2C
+Adafruit_MCP9808 mcp = Adafruit_MCP9808(); //onboard temp sensor
+Adafruit_BME280 bme; // I2C  Altimeter/barometer
 
-uint8_t led = 14;
-unsigned int blinkRate = 500;
-unsigned int pollRate = 500;
-//unsigned int releaseTime = 300000; //5 minutes = 5 * 60 * 1000
-unsigned int releaseTime = 15000; //testing time of 15s
-boolean ledState = LOW;
-boolean payloadReleased = false;
+unsigned int blinkRate = 500; // milliseconds per LED flash
+unsigned int pollRate = 500; // milliseconds per sensor poll
+unsigned int releaseTime = 3600000; //60 minutes = 60 * 60 * 1000
+boolean ledState = LOW; // On//Off toggle
+boolean payloadReleased = false; //controls deployment
 
 //calls init
 void setup() {
@@ -83,7 +81,7 @@ bool init() {
   
   //initalize SD card
   pinMode(SD_PWRCTRL, OUTPUT);
-  digitalWrite(SD_PWRCTRL, LOW);
+  digitalWrite(SD_PWRCTRL, LOW); // powers on SD card
   if (!SD.begin(SD_CS)) {
       Serial.println("initialization failed!");
       return false;
@@ -92,12 +90,8 @@ bool init() {
   return true;
 }
 
-//starts timer and passes whatever incrementor clock uses
-void startTimer() {
-  
-}
-
 //reads data from each sensor and stores it to stringBuilder/SD
+//Currently only Barometer is functional on board rev1
 void pollSensors() {
   pollBarometer();
 }
@@ -137,15 +131,15 @@ void pollTempSensor() {
 }
 
 //receives data from external board
+//RS485 data link to HAB plug sensors
 void receiveExternalBoardData() {
-  
+  //waiting for board development
 }
 
 //triggers the external payload deployment switch
 void deployPayload() {
-      digitalWrite(RELAY_2, HIGH);
+      digitalWrite(RELAY_2, HIGH); // Nichrome wire deploys cubesat solar panels
       Serial.println("relay raised HIGH");
-      //releasePayload = 0;
       payloadReleased = true;
 }
 

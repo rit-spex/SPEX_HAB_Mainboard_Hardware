@@ -1,3 +1,10 @@
+/*RIT Space Exploration HAB2 Main Avionics Board Software
+ * Author: T.J. Tarazevits(venku122)
+ * Board Design: Matt Glazer, Chris Culpepper
+ * Launch Date: 05/08/2016
+ * repo: https://github.com/RITSpexHAB/SPEX_HAB_Mainboard_Hardware
+ */
+
 #include <Adafruit_BME280.h>
 
 #include <Wire.h>

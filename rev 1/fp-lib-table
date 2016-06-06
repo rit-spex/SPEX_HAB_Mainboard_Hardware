@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name SPEX_Parts)(type KiCad)(uri "$(KIPRJMOD)/SPEX_Parts.pretty")(options "")(descr ""))
+  (lib (name 18650)(type KiCad)(uri "$(KIPRJMOD)/power/18650.pretty")(options "")(descr ""))
+  (lib (name NRS8030)(type KiCad)(uri "$(KIPRJMOD)/power/NRS8030.pretty")(options "")(descr ""))
+  (lib (name Power)(type KiCad)(uri "$(KIPRJMOD)/power/Power.pretty")(options "")(descr ""))
+  (lib (name ultrafit)(type KiCad)(uri "$(KIPRJMOD)/power/ultrafit.pretty")(options "")(descr ""))
+)

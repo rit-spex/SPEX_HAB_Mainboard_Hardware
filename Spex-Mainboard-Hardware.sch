@@ -933,9 +933,9 @@ Text GLabel 4400 3900 0    60   Input ~ 0
 CAN0_RX
 Text GLabel 6250 3400 2    60   Input ~ 0
 RX/TX_CTRL
-Text GLabel 6300 2300 2    60   Input ~ 0
-SPI0_MOSI
 Text GLabel 6300 2400 2    60   Input ~ 0
+SPI0_MOSI
+Text GLabel 6300 2300 2    60   Input ~ 0
 SPI0_MISO
 Text GLabel 6300 2500 2    60   Input ~ 0
 SPI0_SCK
@@ -1660,4 +1660,30 @@ Text GLabel 1950 3600 0    60   Input ~ 0
 RESET_b
 Text GLabel 3100 3600 2    60   Input ~ 0
 RESET_b
+$Comp
+L SW_PUSH SW2
+U 1 1 57761B3F
+P 7900 4200
+F 0 "SW2" H 8050 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 4120 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3S-1000" H 7900 4200 50  0001 C CNN
+F 3 "" H 7900 4200 50  0000 C CNN
+	1    7900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57761B45
+P 8250 4300
+F 0 "#PWR?" H 8250 4050 50  0001 C CNN
+F 1 "GND" H 8250 4150 50  0000 C CNN
+F 2 "" H 8250 4300 60  0000 C CNN
+F 3 "" H 8250 4300 60  0000 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4200 8250 4200
+Wire Wire Line
+	8250 4200 8250 4300
 $EndSCHEMATC

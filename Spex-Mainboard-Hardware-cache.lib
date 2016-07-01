@@ -262,11 +262,11 @@ X P10 10 250 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal
+# Crystal-RESCUE-Spex-Mainboard-Hardware
 #
-DEF Crystal Y 0 40 N N 1 F N
+DEF Crystal-RESCUE-Spex-Mainboard-Hardware Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Crystal" 0 -150 50 H V C CNN
+F1 "Crystal-RESCUE-Spex-Mainboard-Hardware" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST

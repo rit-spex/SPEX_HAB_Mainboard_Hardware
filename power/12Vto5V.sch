@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Spex-Mainboard-Hardware-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:parts
+LIBS:PRESSURE-BMP180_LGA7_
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel

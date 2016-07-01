@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Spex-Mainboard-Hardware-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:parts
+LIBS:PRESSURE-BMP180_LGA7_
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel
@@ -320,7 +322,7 @@ NoConn ~ 8000 5400
 NoConn ~ 8000 5500
 NoConn ~ 7500 5600
 $Comp
-L Crystal Y1
+L Crystal-RESCUE-Spex-Mainboard-Hardware Y1
 U 1 1 5679D91C
 P 5150 4500
 F 0 "Y1" H 5150 4650 50  0000 C CNN
@@ -931,9 +933,9 @@ Text GLabel 4400 3900 0    60   Input ~ 0
 CAN0_RX
 Text GLabel 6250 3400 2    60   Input ~ 0
 RX/TX_CTRL
-Text GLabel 6300 2300 2    60   Input ~ 0
-SPI0_MOSI
 Text GLabel 6300 2400 2    60   Input ~ 0
+SPI0_MOSI
+Text GLabel 6300 2300 2    60   Input ~ 0
 SPI0_MISO
 Text GLabel 6300 2500 2    60   Input ~ 0
 SPI0_SCK

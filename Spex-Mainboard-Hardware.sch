@@ -453,9 +453,9 @@ F 3 "" H 10900 900 60  0000 C CNN
 	1    10900 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 10350 900  2    60   Input ~ 0
-I2C1_SCL
 Text GLabel 9650 900  0    60   Input ~ 0
+I2C1_SCL
+Text GLabel 10350 900  2    60   Input ~ 0
 I2C1_SDA
 Text GLabel 9650 1450 0    60   Input ~ 0
 I2C0_SDA

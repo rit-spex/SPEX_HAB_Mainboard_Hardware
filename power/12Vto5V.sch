@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:parts
-LIBS:PRESSURE-BMP180_LGA7_
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel
@@ -192,19 +191,6 @@ F 3 "" H 4450 3500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R141
-U 1 1 56AEEDF5
-P 4250 4150
-F 0 "R141" V 4330 4150 40  0000 C CNN
-F 1 "10K" V 4257 4151 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4180 4150 30  0001 C CNN
-F 3 "" H 4250 4150 30  0000 C CNN
-	1    4250 4150
-	1    0    0    -1  
-$EndComp
-Text HLabel 3950 3850 0    60   Input ~ 0
-En
-$Comp
 L C C122
 U 1 1 56AEEDFE
 P 6400 2950
@@ -218,18 +204,6 @@ F 4 "GRM31CE70J476ME15L" H 6400 2950 60  0001 C CNN "Manufacturer PN"
 $EndComp
 Text HLabel 7000 2650 2    60   Input ~ 0
 Vout
-$Comp
-L MOS_N_numbered Q104
-U 1 1 56AEEE07
-P 4700 3850
-F 0 "Q104" H 4710 4020 60  0000 R CNN
-F 1 "MOS_N_numbered" H 4710 3700 60  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4700 3850 60  0001 C CNN
-F 3 "" H 4700 3850 60  0000 C CNN
-F 4 "DMG2302U" H 4700 3850 60  0001 C CNN "Manufacturer PN"
-	1    4700 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 2650 3650 2650
 Wire Wire Line
@@ -271,25 +245,12 @@ Wire Wire Line
 Wire Wire Line
 	4650 2900 4800 2900
 Wire Wire Line
-	4800 2900 4800 3650
-Wire Wire Line
 	3550 3200 3550 3500
 Wire Wire Line
 	3550 3500 4300 3500
 Connection ~ 3550 3200
 Wire Wire Line
 	4600 3500 4800 3500
-Connection ~ 4800 3500
-Wire Wire Line
-	4800 4050 4800 4500
-Wire Wire Line
-	4800 4400 4250 4400
-Connection ~ 4800 4400
-Wire Wire Line
-	3950 3850 4500 3850
-Wire Wire Line
-	4250 3850 4250 4000
-Connection ~ 4250 3850
 Wire Wire Line
 	6400 3100 6400 3850
 Wire Wire Line
@@ -308,9 +269,8 @@ Wire Wire Line
 Wire Wire Line
 	2800 4500 2800 2650
 Connection ~ 2800 2650
-Connection ~ 4800 4500
 Wire Wire Line
 	6050 2700 6050 2800
 Wire Wire Line
-	4250 4400 4250 4300
+	4800 3500 4800 2900
 $EndSCHEMATC

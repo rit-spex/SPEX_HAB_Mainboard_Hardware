@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:parts
-LIBS:PRESSURE-BMP180_LGA7_
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel
@@ -212,23 +211,6 @@ F 3 "" H 6300 3150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R130
-U 1 1 561202C6
-P 6100 3800
-AR Path="/561202C6" Ref="R130"  Part="1" 
-AR Path="/5611FB98/561202C6" Ref="R130"  Part="1" 
-AR Path="/56FE3A4E/561202C6" Ref="R130"  Part="1" 
-AR Path="/56DF75A2/56FE3A4E/561202C6" Ref="R130"  Part="1" 
-F 0 "R130" V 6180 3800 40  0000 C CNN
-F 1 "10K" V 6107 3801 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6030 3800 30  0001 C CNN
-F 3 "" H 6100 3800 30  0000 C CNN
-	1    6100 3800
-	1    0    0    -1  
-$EndComp
-Text HLabel 5800 3500 0    60   Input ~ 0
-En
-$Comp
 L C C105
 U 1 1 561203D3
 P 8250 2600
@@ -246,18 +228,6 @@ F 4 "GRM31CE70J476ME15L" H 8250 2600 60  0001 C CNN "Manufacturer PN"
 $EndComp
 Text HLabel 8850 2300 2    60   Input ~ 0
 Vout
-$Comp
-L MOS_N_numbered Q101
-U 1 1 562FE111
-P 6550 3500
-F 0 "Q101" H 6560 3670 60  0000 R CNN
-F 1 "MOS_N_numbered" H 6560 3350 60  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6550 3500 60  0001 C CNN
-F 3 "" H 6550 3500 60  0000 C CNN
-F 4 "DMG2302U" H 6550 3500 60  0001 C CNN "Manufacturer PN"
-	1    6550 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 2300 5500 2300
 Wire Wire Line
@@ -299,25 +269,12 @@ Wire Wire Line
 Wire Wire Line
 	6500 2550 6650 2550
 Wire Wire Line
-	6650 2550 6650 3300
-Wire Wire Line
 	5400 2850 5400 3150
 Wire Wire Line
 	5400 3150 6150 3150
 Connection ~ 5400 2850
 Wire Wire Line
 	6450 3150 6650 3150
-Connection ~ 6650 3150
-Wire Wire Line
-	6650 3700 6650 4150
-Wire Wire Line
-	6650 4050 6100 4050
-Connection ~ 6650 4050
-Wire Wire Line
-	5800 3500 6350 3500
-Wire Wire Line
-	6100 3500 6100 3650
-Connection ~ 6100 3500
 Wire Wire Line
 	8250 2750 8250 3500
 Wire Wire Line
@@ -336,9 +293,8 @@ Wire Wire Line
 Wire Wire Line
 	4650 4150 4650 2300
 Connection ~ 4650 2300
-Connection ~ 6650 4150
 Wire Wire Line
 	7900 2350 7900 2450
 Wire Wire Line
-	6100 4050 6100 3950
+	6650 3150 6650 2550
 $EndSCHEMATC

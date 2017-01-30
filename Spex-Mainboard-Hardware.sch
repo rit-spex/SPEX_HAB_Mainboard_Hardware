@@ -240,7 +240,7 @@ F 3 "" H 3100 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P1
+L USB_OTG-RESCUE-Spex-Mainboard-Hardware P1
 U 1 1 56581306
 P 2200 1750
 F 0 "P1" H 2525 1625 50  0000 C CNN
@@ -343,7 +343,7 @@ F 3 "" H 3850 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-Spex-Mainboard-Hardware D1
 U 1 1 56DC1E42
 P 1950 2300
 F 0 "D1" H 1950 2400 50  0000 C CNN
@@ -698,7 +698,7 @@ F 3 "" H 8000 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-Spex-Mainboard-Hardware D2
 U 1 1 56ECA2DA
 P 7500 1750
 F 0 "D2" H 7500 1850 50  0000 C CNN
@@ -709,7 +709,7 @@ F 3 "" H 7500 1750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-Spex-Mainboard-Hardware D3
 U 1 1 56ECA423
 P 7750 1750
 F 0 "D3" H 7750 1850 50  0000 C CNN
@@ -720,7 +720,7 @@ F 3 "" H 7750 1750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-Spex-Mainboard-Hardware D4
 U 1 1 56ECA578
 P 8000 1750
 F 0 "D4" H 8000 1850 50  0000 C CNN
@@ -952,12 +952,6 @@ F 3 "" H 4200 2300 60  0000 C CNN
 	1    4200 2300
 	0    1    1    0   
 $EndComp
-Text GLabel 4650 5600 0    60   Input ~ 0
-SPI0_MOSI
-Text GLabel 5800 5600 2    60   Input ~ 0
-SPI0_MISO
-Text GLabel 4650 5700 0    60   Input ~ 0
-SPI0_SCK
 Text GLabel 3100 5350 2    60   Input ~ 0
 SPI0_CS0
 Text HLabel 8000 5300 2    60   Input ~ 0
@@ -982,50 +976,6 @@ Text GLabel 6300 4000 2    60   Input ~ 0
 Relay2_ctrl
 Text GLabel 6300 2900 2    60   Input ~ 0
 SPI0_CS1
-$Comp
-L AT45DB641E U14
-U 1 1 56FB6452
-P 5300 5800
-F 0 "U14" H 5300 6000 50  0000 C CNN
-F 1 "AT45DB641E" H 5300 6100 50  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 5450 5600 50  0001 C CNN
-F 3 "DOCUMENTATION" H 5300 5500 50  0001 C CNN
-	1    5300 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR031
-U 1 1 56FB6BAF
-P 6400 5450
-F 0 "#PWR031" H 6400 5300 50  0001 C CNN
-F 1 "+3.3V" H 6400 5590 50  0000 C CNN
-F 2 "" H 6400 5450 60  0000 C CNN
-F 3 "" H 6400 5450 60  0000 C CNN
-	1    6400 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR032
-U 1 1 56FB6D46
-P 6350 6050
-F 0 "#PWR032" H 6350 5800 50  0001 C CNN
-F 1 "GND" H 6350 5900 50  0000 C CNN
-F 2 "" H 6350 6050 60  0000 C CNN
-F 3 "" H 6350 6050 60  0000 C CNN
-	1    6350 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C21
-U 1 1 56FB76C9
-P 6700 5750
-F 0 "C21" H 6725 5850 50  0000 L CNN
-F 1 "1uF" H 6725 5650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6738 5600 50  0001 C CNN
-F 3 "" H 6700 5750 50  0000 C CNN
-	1    6700 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 900  2100 900 
 Connection ~ 1850 900 
@@ -1407,58 +1357,12 @@ Wire Wire Line
 	4500 4200 4500 4500
 Wire Wire Line
 	6300 3100 5750 3100
-Wire Wire Line
-	5700 5700 6350 5700
-Wire Wire Line
-	6350 5700 6350 6050
-Wire Wire Line
-	6400 5800 5700 5800
-Wire Wire Line
-	6400 5450 6400 6050
-$Comp
-L +3.3V #PWR033
-U 1 1 56FB887E
-P 6700 5500
-F 0 "#PWR033" H 6700 5350 50  0001 C CNN
-F 1 "+3.3V" H 6700 5640 50  0000 C CNN
-F 2 "" H 6700 5500 60  0000 C CNN
-F 3 "" H 6700 5500 60  0000 C CNN
-	1    6700 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR034
-U 1 1 56FB8A18
-P 6700 6000
-F 0 "#PWR034" H 6700 5750 50  0001 C CNN
-F 1 "GND" H 6700 5850 50  0000 C CNN
-F 2 "" H 6700 6000 60  0000 C CNN
-F 3 "" H 6700 6000 60  0000 C CNN
-	1    6700 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 5600 6700 5500
-Wire Wire Line
-	6700 5900 6700 6000
-Text GLabel 4650 5900 0    60   Input ~ 0
-SPI0_CS1
-Wire Wire Line
-	4650 5900 4900 5900
 Text GLabel 3100 5050 2    60   Input ~ 0
 SPI0_MOSI
 Text GLabel 3100 5150 2    60   Input ~ 0
 SPI0_MISO
 Text GLabel 3100 5250 2    60   Input ~ 0
 SPI0_SCK
-Wire Wire Line
-	4650 5600 4900 5600
-Wire Wire Line
-	4650 5700 4900 5700
-Wire Wire Line
-	5800 5600 5700 5600
-Text Notes 4800 5250 0    60   ~ 0
-Flash Storage (64 Mbit)
 $Comp
 L +5V #PWR035
 U 1 1 56FE575C
@@ -1539,40 +1443,10 @@ Wire Wire Line
 	3100 7450 2950 7450
 Wire Wire Line
 	9550 3600 9700 3600
-Wire Wire Line
-	6400 5900 5700 5900
-Connection ~ 6400 5800
 Text GLabel 6300 3200 2    60   Input ~ 0
 Flash_Reset
-Text GLabel 4650 5800 0    60   Input ~ 0
-Flash_Reset
-Wire Wire Line
-	4650 5800 4900 5800
 Wire Wire Line
 	6300 3200 5750 3200
-$Comp
-L R R18
-U 1 1 5709182B
-P 5300 5350
-F 0 "R18" V 5380 5350 50  0000 C CNN
-F 1 "10K" V 5300 5350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5230 5350 50  0001 C CNN
-F 3 "" H 5300 5350 50  0000 C CNN
-	1    5300 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5150 5350 4850 5350
-Wire Wire Line
-	4850 5350 4850 5800
-Connection ~ 4850 5800
-Wire Wire Line
-	5450 5350 5700 5350
-Wire Wire Line
-	5700 5350 5700 5500
-Wire Wire Line
-	5700 5500 6400 5500
-Connection ~ 6400 5500
 Text GLabel 6350 4100 2    60   Input ~ 0
 RESET_b
 Text GLabel 8000 5600 2    60   Input ~ 0
@@ -1692,23 +1566,4 @@ NoConn ~ 4550 2900
 NoConn ~ 4550 3000
 NoConn ~ 4550 2200
 NoConn ~ 4550 1800
-$Comp
-L R R19
-U 1 1 580804F8
-P 5300 6050
-F 0 "R19" V 5380 6050 50  0000 C CNN
-F 1 "10K" V 5300 6050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5230 6050 50  0001 C CNN
-F 3 "" H 5300 6050 50  0000 C CNN
-	1    5300 6050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 6050 5450 6050
-Connection ~ 6400 5900
-Wire Wire Line
-	5150 6050 4850 6050
-Wire Wire Line
-	4850 6050 4850 5900
-Connection ~ 4850 5900
 $EndSCHEMATC

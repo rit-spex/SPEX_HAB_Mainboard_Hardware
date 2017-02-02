@@ -8,7 +8,6 @@ Hardware on board includes:
 - 9DOF IMU
 - Temperature Sensor
 - Three external Thermistors
-- 64Mbit of Flash Storage
 - Onboard MicroSD Storage 
 - MOSFETs for multiple voltages
 - Full Dataline ESD Protection
@@ -18,4 +17,4 @@ Hardware on board includes:
 
 <img src="https://cloud.githubusercontent.com/assets/12124823/14400662/9fe7c432-fdc9-11e5-8ede-4e1433cb102e.PNG" width="32.75%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400663/a54cd084-fdc9-11e5-9dcf-2bf897ab9da8.PNG" width="32.75%"></img> <img src="https://cloud.githubusercontent.com/assets/12124823/14400666/aa2f543c-fdc9-11e5-9d48-2ad2ffc49fca.PNG" width="32.75%"></img> 
 
-<img src="https://cloud.githubusercontent.com/assets/12124823/19366246/614a530a-9164-11e6-8191-f24bf411f97b.PNG" width="100%"></img> 
+<img src="https://cloud.githubusercontent.com/assets/12124823/22567540/5861c4f6-e95e-11e6-89d9-ed3c88c84b1d.PNG" width="100%"></img> 

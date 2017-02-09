@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
     (links 315)
     (no_connects 0)
-    (area 110.9533 54.109999 198.3411 138.910001)
+    (area 110.8283 54.109999 196.816201 138.910001)
     (thickness 1.6)
     (drawings 6)
     (tracks 1061)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.254)
     (user_trace_width 0.1524)
     (user_trace_width 0.2032)
     (trace_clearance 0.2032)
@@ -4761,7 +4761,7 @@
       (net 2 GND) (solder_mask_margin 0.1))
   )
 
-  (gr_text "HAB Mainboard REV2\n2/17" (at 143.125 57.575) (layer F.SilkS)
+  (gr_text "HAB Avionics\nS17-REV2\n" (at 143.125 57.575) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "RIT SPEX" (at 166.225 115.15) (layer F.SilkS)
